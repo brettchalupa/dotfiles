@@ -10,7 +10,7 @@ These are my dotfiles for git, vim, zsh and bash.
 
 1. Clone the repo in your home directory.
 
-  `git clone https://github.com/brettchalupa/dotfiles.git'
+  `git clone https://github.com/brettchalupa/dotfiles.git`
 
 2. `cd` into the repo.
 
@@ -19,6 +19,7 @@ These are my dotfiles for git, vim, zsh and bash.
 3. Run the install script.
 
   `chmod +x install.sh`
+
   `./install.sh`
 
 ## TODO
