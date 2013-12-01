@@ -47,7 +47,4 @@ unsetopt correct_all
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/home/brett/.rvm/gems/ruby-2.0.0-p247/bin:/home/brett/.rvm/gems/ruby-2.0.0-p247@global/bin:/home/brett/.rvm/rubies/ruby-2.0.0-p247/bin:/home/brett/.rvm/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
+export PATH=$PATH:/home/brett/.rvm/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
