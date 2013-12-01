@@ -18,8 +18,6 @@ These are my dotfiles for git, vim, zsh and bash.
 
 3. Run the install script.
 
-  `chmod +x install.sh`
-
   `./install.sh`
 
 ## TODO
