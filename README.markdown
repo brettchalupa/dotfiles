@@ -19,7 +19,3 @@ These are my dotfiles for git, vim, zsh and bash.
 3. Run the install script.
 
   `./install.sh`
-
-## TODO
-
-* use git submodules for plugins
