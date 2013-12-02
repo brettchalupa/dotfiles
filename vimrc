@@ -1,9 +1,8 @@
 """"" vimrc
 "
-" These are settings for vim.
+" These are my settings for vim.
 "
 "" OTF - On The Fence
-"
 " Settings with OTF are ones I am not sure if I want to have stick around
 "
 """""
@@ -19,6 +18,7 @@ set shiftwidth=2 " set the shiftwidth to be 2 chars
 set number " display line numbers
 set expandtab " use spaces when pressing tab
 set autoindent " OTF - autoindents code
+set noswapfile " OTF - turn off swap files
 color twilight256 " use the twilight256 theme
 
 " map jj to escape
