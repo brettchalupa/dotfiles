@@ -18,7 +18,8 @@ set shiftwidth=2 " set the shiftwidth to be 2 chars
 set number " display line numbers
 set expandtab " use spaces when pressing tab
 set autoindent " OTF - autoindents code
-set noswapfile " OTF - turn off swap files
+set directory=~/.vimbackup// " set the working directory for swp files
+set backupdir=~/.vimbackup// " set the backup directory for backup files
 color twilight256 " use the twilight256 theme
 
 " map jj to escape
