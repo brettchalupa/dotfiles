@@ -20,6 +20,11 @@ set expandtab " use spaces when pressing tab
 set autoindent " OTF - autoindents code
 set directory=~/.vimbackup// " set the working directory for swp files
 set backupdir=~/.vimbackup// " set the backup directory for backup files
+
+""" Search
+set hlsearch " turn on highlighting for search results with /
+set ignorecase " do not care about case when searching with /
+
 color twilight256 " use the twilight256 theme
 
 " map jj to escape
