@@ -25,6 +25,10 @@ set backupdir=~/.vimbackup// " set the backup directory for backup files
 set hlsearch " turn on highlighting for search results with /
 set ignorecase " do not care about case when searching with /
 
+"" NERDTree settings
+" map NERDTree toggle to Ctrl + n
+map <C-n> :NERDTreeToggle<CR>
+
 color twilight256 " use the twilight256 theme
 
 " map jj to escape
