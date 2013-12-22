@@ -10,3 +10,6 @@
 [submodule "vim/bundle/easydir"]
 	path = vim/bundle/easydir
 	url = https://github.com/dockyard/vim-easydir.git
+[submodule "vim-css3-syntax"]
+	path = vim-css3-syntax
+	url = https://github.com/hail2u/vim-css3-syntax.git
