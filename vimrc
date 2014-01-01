@@ -9,6 +9,7 @@
 
 " enable pathogen
 execute pathogen#infect()
+set nocompatible " vim not vi!
 syntax enable " enable syntax highlighting
 set hidden " opening a new buffer sets the current one to be hidden
 set t_Co=256 " enable 256 color support
@@ -41,3 +42,5 @@ color twilight256 " use the twilight256 theme
 imap jj <Esc>
 
 filetype on " enable filetype detection
+filetype indent on " enable filetype-specific indenting
+filetype plugin on " enable filetype-specific plugins
