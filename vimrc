@@ -44,3 +44,6 @@ imap jj <Esc>
 filetype on " enable filetype detection
 filetype indent on " enable filetype-specific indenting
 filetype plugin on " enable filetype-specific plugins
+
+" turn of folding for vim markdown
+let g:vim_markdown_folding_disabled=1
