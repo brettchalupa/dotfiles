@@ -36,7 +36,9 @@ set listchars="" " reset list chars
 set listchars+=tab:\ \
 set listchars+=trail:. " display trailing spaces as dots
 
-color twilight256 " use the twilight256 theme
+" solarized light color settings
+set background=light
+colorscheme solarized
 
 " map jj to escape
 imap jj <Esc>
