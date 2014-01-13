@@ -21,6 +21,7 @@ set expandtab " use spaces when pressing tab
 set autoindent " OTF - autoindents code
 set directory=~/.vimbackup// " set the working directory for swp files
 set backupdir=~/.vimbackup// " set the backup directory for backup files
+set backspace=indent,eol,start " allow backspace
 
 """ Search
 set hlsearch " turn on highlighting for search results with /
