@@ -24,6 +24,8 @@ set backupdir=~/.vimbackup// " set the backup directory for backup files
 set backspace=indent,eol,start " allow backspace
 set ruler " show line number and column in the status line
 set laststatus=2 " set the last window to always have a status line
+set pastetoggle=<F2> " toggle paste mode with F2
+
 
 """ Search
 set hlsearch " turn on highlighting for search results with /
