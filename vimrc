@@ -31,6 +31,8 @@ set pastetoggle=<F2> " toggle paste mode with F2
 set hlsearch " turn on highlighting for search results with /
 set ignorecase " do not care about case when searching with /
 
+set shell=/bin/sh " ensure vim always runs from a shell
+
 """ NERDTree settings
 " map NERDTree toggle to Ctrl + n
 map <C-n> :NERDTreeToggle<CR>
