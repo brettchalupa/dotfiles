@@ -48,6 +48,7 @@ source $ZSH/oh-my-zsh.sh
 
 # chruby & chruby auto-switching
 source /usr/local/opt/chruby/share/chruby/chruby.sh
+chruby ruby-2.0
 
 # Customize to your needs...
 export PATH=$PATH:$HOME/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
