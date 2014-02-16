@@ -26,7 +26,6 @@ set ruler " show line number and column in the status line
 set laststatus=2 " set the last window to always have a status line
 set pastetoggle=<F2> " toggle paste mode with F2
 
-
 """ Search
 set hlsearch " turn on highlighting for search results with /
 set ignorecase " do not care about case when searching with /
@@ -40,7 +39,7 @@ map <C-n> :NERDTreeToggle<CR>
 """ Handling invisible characters
 set list " show invisible characters
 set listchars="" " reset list chars
-set listchars+=tab:\ \
+set listchars+=tab:+\ 
 set listchars+=trail:. " display trailing spaces as dots
 
 " solarized light color settings
