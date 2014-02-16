@@ -56,6 +56,10 @@ filetype plugin on " enable filetype-specific plugins
 " turn of folding for vim markdown
 let g:vim_markdown_folding_disabled=1
 
+""" file type specific settings
+" go
+autocmd FileType go set tabstop=4|set shiftwidth=4|set noexpandtab
+
 
 " Highlight words to avoid in tech writing
 " =======================================
