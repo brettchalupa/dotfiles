@@ -20,4 +20,5 @@ set autoindent " autoindents code
 
 """ file type specific settings
 " go
+au! BufNewFile,BufRead *.go setf go
 autocmd FileType go set tabstop=4|set shiftwidth=4|set noexpandtab
