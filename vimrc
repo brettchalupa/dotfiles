@@ -22,3 +22,5 @@ set autoindent " autoindents code
 " go
 au! BufNewFile,BufRead *.go setf go
 autocmd FileType go set tabstop=4|set shiftwidth=4|set noexpandtab
+
+au BufRead,BufNewFile *.md,*.markdown,*.mdown set filetype=text
