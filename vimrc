@@ -18,11 +18,17 @@ set shiftwidth=2 " set the autoindent to be 2 chars
 set expandtab " use spaces when pressing tab
 set autoindent " autoindents code
 
+""" Handling invisible characters
+set list " show invisible characters
+set listchars="" " reset list chars
+set listchars+=tab:+\
+set listchars+=trail:. " display trailing spaces as dots
+
 """ file type specific settings
 " go
 au! BufNewFile,BufRead *.go setf go
 autocmd FileType go set tabstop=4|set shiftwidth=4|set noexpandtab
-
+" markdown (display as just plain text)
 au BufRead,BufNewFile *.md,*.markdown,*.mdown set filetype=text
-
+" email wrap at 68
 autocmd FileType email set textwidth=68
