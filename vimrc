@@ -32,5 +32,6 @@ autocmd FileType go set tabstop=4|set shiftwidth=4|set noexpandtab
 au BufRead,BufNewFile *.md,*.markdown,*.mdown set filetype=text
 " email wrap at 68
 autocmd FileType email set textwidth=68
+autocmd FileType mail set textwidth=68
 " c++ settings
 autocmd FileType cpp set tabstop=4|set shiftwidth=4|set noexpandtab
