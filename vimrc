@@ -21,7 +21,7 @@ set autoindent " autoindents code
 """ Handling invisible characters
 set list " show invisible characters
 set listchars="" " reset list chars
-set listchars+=tab:+\
+set listchars+=tab:▸\ 
 set listchars+=trail:. " display trailing spaces as dots
 
 """ file type specific settings
@@ -32,3 +32,5 @@ autocmd FileType go set tabstop=4|set shiftwidth=4|set noexpandtab
 au BufRead,BufNewFile *.md,*.markdown,*.mdown set filetype=text
 " email wrap at 68
 autocmd FileType email set textwidth=68
+" c++ settings
+autocmd FileType cpp set tabstop=4|set shiftwidth=4|set noexpandtab
