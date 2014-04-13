@@ -40,3 +40,7 @@ autocmd FileType mail set textwidth=68
 autocmd FileType cpp set tabstop=4|set shiftwidth=4|set noexpandtab
 " use tabs for make files
 autocmd filetype make setlocal noexpandtab
+" html
+autocmd FileType html set tabstop=2|set shiftwidth=2|set expandtab
+" js
+autocmd FileType js set tabstop=2|set shiftwidth=2|set expandtab
