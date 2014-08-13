@@ -12,6 +12,8 @@ set number " display line numbers
 set ruler " show the line number and column in the status line
 set laststatus=2 " always set the last window to have a status line
 
+set backspace=indent,eol,start
+
 " this could be moved into filestype specific plugins
 set tabstop=2 " set the tab spacing to be 2 chars
 set shiftwidth=2 " set the autoindent to be 2 chars
