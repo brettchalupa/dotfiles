@@ -9,4 +9,6 @@ export PATH=$PATH:$HOME/bin:/usr/local/go/bin:/usr/local/heroku/bin:/usr/local/s
 
 export PS1='\h:\u \W \$ '
 
+alias tmux="tmux -2"
+
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
