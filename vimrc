@@ -35,6 +35,9 @@ autocmd FileType go set tabstop=4|set shiftwidth=4|set noexpandtab
 " autocmd FileType html set noautoindent
 autocmd FileType html set tabstop=2|set shiftwidth=2|set expandtab
 
+" handlebars (display it as html)
+au BufRead,BufNewFile *.hbs,*.handlebars set filetype=html
+
 " haxe
 au! BufNewFile,BufRead *.hx setf haxe
 autocmd FileType haxe set tabstop=4|set shiftwidth=4|set noexpandtab
