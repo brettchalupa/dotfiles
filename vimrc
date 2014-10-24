@@ -30,19 +30,27 @@ set listchars+=trail:. " display trailing spaces as dots
 " go
 au! BufNewFile,BufRead *.go setf go
 autocmd FileType go set tabstop=4|set shiftwidth=4|set noexpandtab
+
+" html
+" autocmd FileType html set noautoindent
+autocmd FileType html set tabstop=2|set shiftwidth=2|set expandtab
+
 " haxe
 au! BufNewFile,BufRead *.hx setf haxe
 autocmd FileType haxe set tabstop=4|set shiftwidth=4|set noexpandtab
+
 " markdown (display as just plain text)
 au BufRead,BufNewFile *.md,*.markdown,*.mdown set filetype=text
+
 " email wrap at 68
 autocmd FileType email set textwidth=68
 autocmd FileType mail set textwidth=68
+
 " c++ settings
 autocmd FileType cpp set tabstop=4|set shiftwidth=4|set noexpandtab
+
 " use tabs for make files
 autocmd filetype make setlocal noexpandtab
-" html
-autocmd FileType html set tabstop=2|set shiftwidth=2|set expandtab
+
 " js
 autocmd FileType js set tabstop=2|set shiftwidth=2|set expandtab
