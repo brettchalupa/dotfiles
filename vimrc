@@ -7,7 +7,7 @@
 set nocompatible " vim or gtfo
 syntax on " turn on syntax highlighting
 filetype plugin indent on " turn on plugin and indention for filetype detection
-set textwidth=80 " wrap at 80 col or gtfo
+set textwidth=72 " wrap at 72 cols
 set number " display line numbers
 set ruler " show the line number and column in the status line
 set laststatus=2 " always set the last window to have a status line
