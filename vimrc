@@ -12,6 +12,9 @@ set number " display line numbers
 set ruler " show the line number and column in the status line
 set laststatus=2 " always set the last window to have a status line
 
+" use jj to exit insert mode
+:imap jj <Esc>
+
 set backspace=indent,eol,start
 
 " this could be moved into filestype specific plugins
