@@ -26,7 +26,7 @@ set autoindent " autoindents code
 """ Handling invisible characters
 set list " show invisible characters
 set listchars="" " reset list chars
-set listchars+=tab:▸\ 
+set listchars+=tab:·\ 
 set listchars+=trail:. " display trailing spaces as dots
 
 """ file type specific settings
