@@ -4,9 +4,31 @@
 "
 """""
 
-set nocompatible " vim or gtfo
-syntax on " turn on syntax highlighting
+""" Vundle (start)
+set nocompatible " vim or gtfo, required by Vundle
+filetype off " required by Vundle
+
+" setup and start vundle, required by Vundle
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required by Vundle
+Plugin 'VundleVim/Vundle.vim'
+
+" make running rspec specs in vim easy
+Plugin 'thoughtbot/vim-rspec'
+
+" RSpec.vim mappings
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
+
+call vundle#end() " required by Vundle
+""" Vundle (end)
+
 filetype plugin indent on " turn on plugin and indention for filetype detection
+syntax on " turn on syntax highlighting
 set textwidth=72 " wrap at 72 cols
 set number " display line numbers
 set ruler " show the line number and column in the status line
