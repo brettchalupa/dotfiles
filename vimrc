@@ -24,6 +24,9 @@ map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 
+" slim-lang syntax highlighting
+Plugin 'slim-template/vim-slim'
+
 call vundle#end() " required by Vundle
 """ Vundle (end)
 
