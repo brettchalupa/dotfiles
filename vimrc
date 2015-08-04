@@ -18,6 +18,12 @@ Plugin 'VundleVim/Vundle.vim'
 " make running rspec specs in vim easy
 Plugin 'thoughtbot/vim-rspec'
 
+" send output to a tmux pane
+Plugin 'jgdavey/tslime.vim'
+
+" send rspec output to tmux
+let g:rspec_command = 'call Send_to_Tmux("bin/rspec {spec}\n")'
+
 " RSpec.vim mappings
 map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
