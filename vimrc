@@ -21,6 +21,9 @@ Plugin 'thoughtbot/vim-rspec'
 " send output to a tmux pane
 Plugin 'jgdavey/tslime.vim'
 
+" send output to a tmux pane
+Plugin 'mustache/vim-mustache-handlebars'
+
 " send rspec output to tmux
 let g:rspec_command = 'call Send_to_Tmux("bin/rspec {spec}\n")'
 
