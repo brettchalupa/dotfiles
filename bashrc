@@ -8,6 +8,8 @@ export PS1='\h:\u \W \$ '
 
 alias tmux="tmux -2"
 
+alias tmcp="tmux show-buffer | pbcopy"
+
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 export PATH="/usr/local/heroku/bin:$PATH"
