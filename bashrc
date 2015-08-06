@@ -12,5 +12,7 @@ alias tmcp="tmux show-buffer | pbcopy"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
+NODE_PATH="/usr/local/lib/node_modules"
+
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH=$HOME/.rvm/gems/ruby-2.0.0-p451/bin:$PATH:$HOME/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$GOPATH/bin
