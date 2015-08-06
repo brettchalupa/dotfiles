@@ -24,6 +24,9 @@ Plugin 'jgdavey/tslime.vim'
 " send output to a tmux pane
 Plugin 'mustache/vim-mustache-handlebars'
 
+" useful go settings and features
+Plugin 'fatih/vim-go'
+
 " send rspec output to tmux
 let g:rspec_command = 'call Send_to_Tmux("bin/rspec {spec}\n")'
 
@@ -67,6 +70,10 @@ set listchars+=trail:. " display trailing spaces as dots
 " go
 au! BufNewFile,BufRead *.go setf go
 autocmd FileType go set tabstop=4|set shiftwidth=4|set noexpandtab
+au FileType go nmap <leader>r <Plug>(go-run)
+au FileType go nmap <leader>b <Plug>(go-build)
+au FileType go nmap <leader>t <Plug>(go-test)
+au FileType go nmap <leader>c <Plug>(go-coverage)
 
 " html
 " autocmd FileType html set noautoindent
