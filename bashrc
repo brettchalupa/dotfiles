@@ -9,6 +9,8 @@ export PS1='\h:\u \W \$ '
 alias tmux="tmux -2"
 
 alias tmcp="tmux show-buffer | pbcopy"
+alias nombom='npm cache clear && bower cache clean && rm -rf node_modules bower_components && npm install && bower install'
+alias gosrc="cd $GOPATH/src/github.com/brettchalupa"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
