@@ -24,6 +24,9 @@ Plugin 'jgdavey/tslime.vim'
 " send output to a tmux pane
 Plugin 'mustache/vim-mustache-handlebars'
 
+" quick file opening
+Plugin 'kien/ctrlp.vim'
+
 " useful go settings and features
 Plugin 'fatih/vim-go'
 
