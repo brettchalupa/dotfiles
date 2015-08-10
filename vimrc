@@ -39,6 +39,9 @@ map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 
+" ctrlp settings
+let g:ctrlp_custom_ignore = 'tmp\|dist\|log\|node_modules\|bower_components\|DS_Store\|git'
+
 " slim-lang syntax highlighting
 Plugin 'slim-template/vim-slim'
 
