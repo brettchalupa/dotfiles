@@ -21,12 +21,6 @@ Plugin 'thoughtbot/vim-rspec'
 " send output to a tmux pane
 Plugin 'jgdavey/tslime.vim'
 
-" send output to a tmux pane
-Plugin 'mustache/vim-mustache-handlebars'
-
-" quick file opening
-Plugin 'kien/ctrlp.vim'
-
 " useful go settings and features
 Plugin 'fatih/vim-go'
 
@@ -38,9 +32,6 @@ map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
-
-" ctrlp settings
-let g:ctrlp_custom_ignore = 'tmp\|dist\|log\|node_modules\|bower_components\|DS_Store\|git\|_site'
 
 " slim-lang syntax highlighting
 Plugin 'slim-template/vim-slim'
