@@ -1,5 +1,5 @@
 [user]
-	name = Brett
+	name = Brett Chalupa
 	email = brett@brettchalupa.com
 [credential]
 	helper = cache --timeout=6400
