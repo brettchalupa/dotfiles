@@ -49,6 +49,8 @@ set laststatus=2 " always set the last window to have a status line
 " use jj to exit insert mode
 :imap jj <Esc>
 
+map <Leader>r :call Send_to_Tmux("lime test neko -debug\n")<CR>
+
 set backspace=indent,eol,start
 
 " this could be moved into filestype specific plugins
