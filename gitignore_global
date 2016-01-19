@@ -45,3 +45,6 @@ Thumbs.db
 
 # RuboCop output
 rubocop_result.txt
+
+# Byebug history
+.byebug_history

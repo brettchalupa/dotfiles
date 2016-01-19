@@ -4,6 +4,9 @@ export GOPATH=$HOME/workspace/go
 # dotfiles export
 export DOTFILES=$HOME/dotfiles
 
+# needed for Rabbit (slide presenter) to work
+export DYLD_LIBRARY_PATH=/usr/local/opt/cairo/lib
+
 export PS1='\h:\u \W \$ '
 
 alias tmux="tmux -2"
