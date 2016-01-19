@@ -100,3 +100,6 @@ autocmd filetype make setlocal noexpandtab
 
 " js
 autocmd FileType js set tabstop=2|set shiftwidth=2|set expandtab
+
+" fix for :E to work as expected
+let g:loaded_logipat = 1
