@@ -7,11 +7,18 @@ export DOTFILES=$HOME/dotfiles
 # needed for Rabbit (slide presenter) to work
 export DYLD_LIBRARY_PATH=/usr/local/opt/cairo/lib
 
+# Set prompt to be: host:user dir $
+# eg. shire:brett dotfiles $
 export PS1='\h:\u \W \$ '
 
 alias tmux="tmux -2"
+
+# copy tmux buffer to clipboard - OS X only
 alias tmcp="tmux show-buffer | pbcopy"
+
 alias nombom='npm cache clear && bower cache clean && rm -rf node_modules bower_components && npm install && bower install'
+
+# move to where my go code is located
 alias gosrc="cd $GOPATH/src/github.com/brettchalupa"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
