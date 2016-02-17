@@ -9,7 +9,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/.dotfiles_old             # old dotfiles backup directory
-files="vimrc bashrc bash_profile gitconfig gitignore_global tmux.conf hushlogin"    # list of files/folders to symlink in homedir
+files="vimrc bash_profile gitconfig gitignore_global tmux.conf hushlogin"    # list of files/folders to symlink in homedir
 
 # install Vundle for managing Vim plugins
 echo "Installing Vundle"
