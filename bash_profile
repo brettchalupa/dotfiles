@@ -16,7 +16,7 @@ export PS1='\h:\u \W \$ '
 alias tmux="tmux -2"
 
 # copy tmux buffer to clipboard - OS X only
-alias tmcp="tmux show-buffer | xclip"
+alias tmcp="tmux show-buffer | xclip -sel clip"
 
 alias nombom='npm cache clear && bower cache clean && rm -rf node_modules bower_components && npm install && bower install'
 
