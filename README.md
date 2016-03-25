@@ -5,6 +5,6 @@ configuration.
 
 ## Installing
 
-1. Clone the repo in the home directory - `git clone https://github.com/brettchalupa/dotfiles.git -o github ~/`
+1. Clone the repo in the home directory - `git clone https://github.com/brettchalupa/dotfiles.git ~/dotfiles`
 2. `cd` into the repo - `cd ~/dotfiles`
 3. Run the install script - `./install.sh`
