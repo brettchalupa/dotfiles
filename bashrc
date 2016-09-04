@@ -4,13 +4,11 @@ export GOPATH=$HOME/workspace/go
 # dotfiles export
 export DOTFILES=$HOME/dotfiles
 
-# needed for Rabbit (slide presenter) to work
-export DYLD_LIBRARY_PATH=/usr/local/opt/cairo/lib
-
 # Set prompt to be: host:user dir $
 # eg. shire:brett dotfiles $
 export PS1='\h:\u \W \$ '
 
+# Force tmux to assume 256 colors
 alias tmux="tmux -2"
 
 # copy tmux buffer to clipboard - OS X only
@@ -23,7 +21,9 @@ alias gosrc="cd $GOPATH/src/github.com/brettchalupa"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
-NODE_PATH="/usr/local/lib/node_modules"
-
 export PATH="/usr/local/heroku/bin:$PATH"
-export PATH=$HOME/.rvm/gems/ruby-2.0.0-p451/bin:$PATH:$HOME/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$GOPATH/bin
+
+export PATH=$PATH:$HOME/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$GOPATH/bin:$HOME/.meteor
+
+# Shopify themekit
+export PATH=/Users/brett/.themekit:$PATH
