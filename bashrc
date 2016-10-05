@@ -19,6 +19,8 @@ alias nombom='npm cache clear && bower cache clean && rm -rf node_modules bower_
 # move to where my go code is located
 alias gosrc="cd $GOPATH/src/github.com/brettchalupa"
 
+alias be="bundle exec "
+
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 export PATH="/usr/local/heroku/bin:$PATH"
