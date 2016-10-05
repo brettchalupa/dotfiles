@@ -24,6 +24,9 @@ Plugin 'jgdavey/tslime.vim'
 " useful go settings and features
 Plugin 'fatih/vim-go'
 
+" Elixir syntax highlighting
+Plugin 'elixir-lang/vim-elixir'
+
 " send rspec output to tmux
 let g:rspec_command = 'call Send_to_Tmux("bin/rspec {spec}\n")'
 
@@ -84,6 +87,9 @@ au BufRead,BufNewFile *.hbs,*.handlebars set filetype=html
 " haxe
 au! BufNewFile,BufRead *.hx setf haxe
 autocmd FileType haxe set tabstop=4|set shiftwidth=4|set noexpandtab
+
+" liquid ext settings
+au! BufNewFile,BufRead,BufReadPost *.js.liquid setf javascript
 
 " markdown (display as just plain text)
 au BufRead,BufNewFile *.md,*.markdown,*.mdown set filetype=text
