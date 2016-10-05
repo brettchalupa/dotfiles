@@ -8,6 +8,9 @@ export DOTFILES=$HOME/dotfiles
 # eg. shire:brett dotfiles $
 export PS1='\h:\u \W \$ '
 
+# Set the default editor to vim
+export EDITOR='vim'
+
 # Force tmux to assume 256 colors
 alias tmux="tmux -2"
 
