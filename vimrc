@@ -27,6 +27,9 @@ Plugin 'fatih/vim-go'
 " Elixir syntax highlighting
 Plugin 'elixir-lang/vim-elixir'
 
+" Handlebars & Mustache synctax highlighting
+Plugin 'mustache/vim-mustache-handlebars'
+
 " send rspec output to tmux
 let g:rspec_command = 'call Send_to_Tmux("bin/rspec {spec}\n")'
 
@@ -80,9 +83,6 @@ au FileType go nmap <leader>c <Plug>(go-coverage)
 " html
 " autocmd FileType html set noautoindent
 autocmd FileType html set tabstop=2|set shiftwidth=2|set expandtab
-
-" handlebars (display it as html)
-au BufRead,BufNewFile *.hbs,*.handlebars set filetype=html
 
 " haxe
 au! BufNewFile,BufRead *.hx setf haxe
