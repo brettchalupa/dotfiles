@@ -74,6 +74,8 @@ set listchars="" " reset list chars
 set listchars+=tab:·\ 
 set listchars+=trail:. " display trailing spaces as dots
 
+set pastetoggle=<F2>
+
 """ file type specific settings
 " go
 au! BufNewFile,BufRead *.go setf go
