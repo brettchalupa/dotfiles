@@ -11,6 +11,11 @@ export PS1='\h:\u \W \$ '
 # Set the default editor to vim
 export EDITOR='vim'
 
+# bash autocompletion support
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+
 # Force tmux to assume 256 colors
 alias tmux="tmux -2"
 
