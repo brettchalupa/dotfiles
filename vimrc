@@ -42,6 +42,9 @@ map <Leader>a :call RunAllSpecs()<CR>
 " slim-lang syntax highlighting
 Plugin 'slim-template/vim-slim'
 
+" Fuzzy file finding
+Plugin 'ctrlpvim/ctrlp.vim'
+
 call vundle#end() " required by Vundle
 """ Vundle (end)
 
