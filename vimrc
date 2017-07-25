@@ -115,8 +115,8 @@ autocmd FileType js set tabstop=2|set shiftwidth=2|set expandtab
 " fix for :E to work as expected
 let g:loaded_logipat = 1
 
-" Disable archive files
-set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
+" Disable archive and temporary files
+set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz,*/tmp/*
 
 " Ignore bundler and sass cache
 set wildignore+=*/vendor/gems/*,*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
