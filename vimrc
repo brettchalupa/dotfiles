@@ -121,6 +121,9 @@ set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz,*/tmp/*
 " Ignore bundler and sass cache
 set wildignore+=*/vendor/gems/*,*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
 
+" Ignore Node and Bower files
+set wildignore+=*/node_modules/*,*/bower_components/*
+
 ""
 "" Backup and swap files
 ""
