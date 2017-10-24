@@ -127,6 +127,9 @@ set wildignore+=*/vendor/gems/*,*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
 " Ignore Node and Bower files
 set wildignore+=*/node_modules/*,*/bower_components/*
 
+" Ignore generated Jekyll site
+set wildignore+=*/_site/*
+
 ""
 "" Backup and swap files
 ""
