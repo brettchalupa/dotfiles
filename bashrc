@@ -37,3 +37,6 @@ export PATH=$PATH:$HOME/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/us
 
 # Shopify themekit
 export PATH=~/.themekit:$PATH
+
+# For use of Haxe via Homebrew
+export HAXE_STD_PATH="/usr/local/lib/haxe/std"
