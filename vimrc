@@ -130,6 +130,9 @@ set wildignore+=*/node_modules/*,*/bower_components/*
 " Ignore generated Jekyll site
 set wildignore+=*/_site/*
 
+" Ignore HaxeFlixel exports
+set wildignore+=*/export/*
+
 ""
 "" Backup and swap files
 ""
