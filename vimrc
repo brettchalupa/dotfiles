@@ -34,7 +34,9 @@ Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'jdonaldson/vaxe'
 
 " send rspec output to tmux
-let g:rspec_command = 'call Send_to_Tmux("bin/rspec {spec}\n")'
+autocmd BufEnter *.rb let g:rspec_command = 'call Send_to_Tmux("bundle exec rspec {spec}\n")'
+" use `spec` for the legacy app due to old RSpec version
+autocmd BufEnter */bigcartel/bigcartel*.rb let g:rspec_command = 'call Send_to_Tmux("bundle exec spec {spec}\n")'
 
 " RSpec.vim mappings
 map <Leader>t :call RunCurrentSpecFile()<CR>
