@@ -29,13 +29,6 @@ alias gosrc="cd $GOPATH/src/github.com/brettchalupa"
 
 alias be="bundle exec "
 
-# A handful of aliases to make working with docker-compose easier
-alias dcr="docker-compose run"
-alias dcra="dcr admin"
-alias dcrabe="dcra bundle exec"
-alias dcrl="dcr bigcartel"
-alias dcrlbe="dcrl bundle exec"
-
 export PATH="/usr/local/heroku/bin:$PATH"
 
 export PATH=$PATH:$HOME/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$GOPATH/bin:$HOME/.meteor
