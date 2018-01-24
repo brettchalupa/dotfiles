@@ -1,0 +1,58 @@
+" Personal plugins I want
+
+Plug 'ctrlpvim/ctrlp.vim'
+
+" Disable the dotmatrix plugins for speed
+
+Plug 'hashrocket/vim-hashrocket', { 'on': [] }
+Plug 'AndrewRadev/splitjoin.vim', { 'on': [] }
+Plug 'adamlowe/vim-slurper', { 'on': [] }
+Plug 'jbranchaud/vim-bdubs', { 'on': [] }
+Plug 'ervandew/supertab', { 'on': [] }
+Plug 'godlygeek/tabular', { 'on': [] }
+Plug 'gregsexton/gitv', { 'on': [] }
+Plug 'heartsentwined/vim-emblem', { 'on': [] }
+Plug 'jgdavey/tslime.vim', { 'on': [] }
+Plug 'jgdavey/vim-blockle', { 'on': [] }
+Plug 'jgdavey/vim-railscasts', { 'on': [] }
+Plug 'jgdavey/vim-turbux', { 'on': [] }
+Plug 'jgdavey/vim-weefactor', { 'on': [] }
+Plug 'kchmck/vim-coffee-script', { 'on': [] }
+Plug 'leshill/vim-json', { 'on': [] }
+Plug 'mileszs/ack.vim', { 'on': [] }
+Plug 'pangloss/vim-javascript', { 'on': [] }
+Plug 'rondale-sc/vim-spacejam', { 'on': [] }
+Plug 'slim-template/vim-slim', { 'on': [] }
+Plug 'therubymug/vim-pyte', { 'on': [] }
+Plug 'tpope/vim-abolish', { 'on': [] }
+Plug 'tpope/vim-bundler', { 'on': [] }
+Plug 'tpope/vim-commentary', { 'on': [] }
+Plug 'tpope/vim-cucumber', { 'on': [] }
+Plug 'tpope/vim-endwise', { 'on': [] }
+Plug 'tpope/vim-eunuch', { 'on': [] }
+Plug 'tpope/vim-fugitive', { 'on': [] }
+Plug 'tpope/vim-git', { 'on': [] }
+Plug 'tpope/vim-haml', { 'on': [] }
+Plug 'tpope/vim-markdown', { 'on': [] }
+Plug 'tpope/vim-projectionist', { 'on': [] }
+Plug 'tpope/vim-ragtag', { 'on': [] }
+Plug 'tpope/vim-rails', { 'on': [] }
+Plug 'tpope/vim-rake', { 'on': [] }
+Plug 'tpope/vim-repeat', { 'on': [] }
+Plug 'tpope/vim-rsi', { 'on': [] }
+Plug 'tpope/vim-sensible', { 'on': [] }
+Plug 'tpope/vim-sleuth', { 'on': [] }
+Plug 'tpope/vim-speeddating', { 'on': [] }
+Plug 'tpope/vim-surround', { 'on': [] }
+Plug 'tpope/vim-unimpaired', { 'on': [] }
+Plug 'tpope/vim-vinegar', { 'on': [] }
+Plug 'tpope/vim-vividchalk', { 'on': [] }
+Plug 'vim-ruby/vim-ruby', { 'on': [] }
+Plug 'vim-scripts/bufexplorer.zip', { 'on': [] }
+Plug 'vim-scripts/bufkill.vim', { 'on': [] }
+Plug 'wgibbs/vim-irblack', { 'on': [] }
+Plug 'kana/vim-textobj-user', { 'on': [] }
+Plug 'nelstrom/vim-textobj-rubyblock', { 'on': [] }
+Plug 'exu/pgsql.vim', { 'on': [] }
+Plug 'mxw/vim-jsx', { 'on': [] }
+Plug 'sbdchd/neoformat', { 'on': [] }
