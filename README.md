@@ -1,7 +1,7 @@
 # dotfiles
 
-These are my dotfiles for git, vim, bash, tmux, and other tools with
-configuration.
+These are my local dotfiles for git, vim, bash, tmux, and other tools to be used
+in conjunction with our internal dotfiles at Big Cartel.
 
 ## Installing
 

@@ -29,14 +29,31 @@ alias gosrc="cd $GOPATH/src/github.com/brettchalupa"
 
 alias be="bundle exec "
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+# A handful of aliases to make working with docker-compose easier
+alias dcr="docker-compose run"
+alias dcra="dcr admin"
+alias dcrabe="dcra bundle exec"
+alias dcrl="dcr bigcartel"
+alias dcrlbe="dcrl bundle exec"
 
 export PATH="/usr/local/heroku/bin:$PATH"
 
 export PATH=$PATH:$HOME/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$GOPATH/bin:$HOME/.meteor
 
-# Shopify themekit
-export PATH=~/.themekit:$PATH
+export BIG_CARTEL_HOME="~/workspace"
 
-# For use of Haxe via Homebrew
-export HAXE_STD_PATH="/usr/local/lib/haxe/std"
+# Force colors
+export CLICOLOR_FORCE=true
+
+export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
+
+hitch() {
+  command hitch "$@"
+  if [[ -s "$HOME/.hitch_export_authors" ]] ; then source "$HOME/.hitch_export_authors" ; fi
+}
+alias unhitch='hitch -u'
+
+# Uncomment to persist pair info between terminal instances
+# hitch
+
+eval "$(~/workspace/dotmatrix/hr/bin/hr init -)"

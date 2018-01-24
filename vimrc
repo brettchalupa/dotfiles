@@ -4,66 +4,15 @@
 "
 """""
 
-""" Vundle (start)
-set nocompatible " vim or gtfo, required by Vundle
-filetype off " required by Vundle
-
-" setup and start vundle, required by Vundle
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-" let Vundle manage Vundle, required by Vundle
-Plugin 'VundleVim/Vundle.vim'
-
-" make running rspec specs in vim easy
-Plugin 'thoughtbot/vim-rspec'
-
-" send output to a tmux pane
-Plugin 'jgdavey/tslime.vim'
-
-" useful go settings and features
-Plugin 'fatih/vim-go'
-
-" Elixir syntax highlighting
-Plugin 'elixir-lang/vim-elixir'
-
-" Handlebars & Mustache syntax highlighting
-Plugin 'mustache/vim-mustache-handlebars'
-
-" Haxe syntax highlighting
-Plugin 'jdonaldson/vaxe'
-
-" send rspec output to tmux
-autocmd BufEnter *.rb let g:rspec_command = 'call Send_to_Tmux("bundle exec rspec {spec}\n")'
-" use `spec` for the legacy app due to old RSpec version
-autocmd BufEnter */bigcartel/bigcartel*.rb let g:rspec_command = 'call Send_to_Tmux("bundle exec spec {spec}\n")'
-
-" RSpec.vim mappings
-map <Leader>t :call RunCurrentSpecFile()<CR>
-map <Leader>s :call RunNearestSpec()<CR>
-map <Leader>l :call RunLastSpec()<CR>
-map <Leader>a :call RunAllSpecs()<CR>
-
-" slim-lang syntax highlighting
-Plugin 'slim-template/vim-slim'
-
-" Fuzzy file finding
-Plugin 'ctrlpvim/ctrlp.vim'
-
-call vundle#end() " required by Vundle
-""" Vundle (end)
-
 filetype plugin indent on " turn on plugin and indention for filetype detection
 syntax on " turn on syntax highlighting
-set textwidth=72 " wrap at 72 cols
+set textwidth=80 " wrap at 80 chars
 set number " display line numbers
 set ruler " show the line number and column in the status line
 set laststatus=2 " always set the last window to have a status line
 
 " use jj to exit insert mode
 :imap jj <Esc>
-
-map <Leader>r :call Send_to_Tmux("lime test neko -debug\n")<CR>
 
 set backspace=indent,eol,start
 
@@ -76,7 +25,7 @@ set autoindent " autoindents code
 """ Handling invisible characters
 set list " show invisible characters
 set listchars="" " reset list chars
-set listchars+=tab:·\ 
+set listchars+=tab:·\
 set listchars+=trail:. " display trailing spaces as dots
 
 set pastetoggle=<F2>
@@ -134,15 +83,3 @@ set wildignore+=*/_site/*
 
 " Ignore HaxeFlixel exports
 set wildignore+=*/export/*
-
-""
-"" Backup and swap files
-""
-set backupdir=~/.vim/_backup//    " where to put backup files.
-set directory=~/.vim/_temp//      " where to put swap files.
-
-" allow undo history to persist after closing buffer
-if has('persistent_undo')
-  set undodir=~/.vim/_undo
-  set undofile
-end

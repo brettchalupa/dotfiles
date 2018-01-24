@@ -9,17 +9,8 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/.dotfiles_old             # old dotfiles backup directory
-files="vimrc bashrc bash_profile gitconfig gitignore_global tmux.conf hushlogin"    # list of files/folders to symlink in homedir
+files="vimrc bashrc bash_profile gitconfig gitignore_global tmux.conf"    # list of files/folders to symlink in homedir
 
-# create dirs needed by vim for backup, swap, and undo
-mkdir -p ~/.vim/_backup ~/.vim/_temp ~/.vim/_undo
-
-# install Vundle for managing Vim plugins
-echo "Installing Vundle"
-git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-vim +PluginInstall +qall # install Vundle plugins
-
-# create .dotfiles_old in homedir
 echo "Creating $olddir for backup of any existing dotfiles in ~"
 mkdir -p $olddir
 
@@ -30,7 +21,10 @@ cd $dir
 # move any existing dotfiles in homedir to .dotfiles_old directory, then create symlinks
 for file in $files; do
   echo "Moving your $file from ~ to $olddir"
-  mv ~/.$file $olddir
+  mv ~/.$file.local $olddir
   echo "Creating symlink to $file in home directory."
-  ln -s $dir/$file ~/.$file
+  ln -s $dir/$file ~/.$file.local
 done
+
+# link none .local files
+ln -s $dir/hushlogin ~/.hushlogin

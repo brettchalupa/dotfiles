@@ -48,3 +48,9 @@ rubocop_result.txt
 
 # Byebug history
 .byebug_history
+
+# Bundle config
+.bundle
+
+# Pow configs
+.powrc
