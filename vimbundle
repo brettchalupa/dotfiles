@@ -47,12 +47,10 @@ Plug 'tpope/vim-surround', { 'on': [] }
 Plug 'tpope/vim-unimpaired', { 'on': [] }
 Plug 'tpope/vim-vinegar', { 'on': [] }
 Plug 'tpope/vim-vividchalk', { 'on': [] }
-Plug 'vim-ruby/vim-ruby', { 'on': [] }
 Plug 'vim-scripts/bufexplorer.zip', { 'on': [] }
 Plug 'vim-scripts/bufkill.vim', { 'on': [] }
 Plug 'wgibbs/vim-irblack', { 'on': [] }
 Plug 'kana/vim-textobj-user', { 'on': [] }
 Plug 'nelstrom/vim-textobj-rubyblock', { 'on': [] }
-Plug 'exu/pgsql.vim', { 'on': [] }
 Plug 'mxw/vim-jsx', { 'on': [] }
 Plug 'sbdchd/neoformat', { 'on': [] }
