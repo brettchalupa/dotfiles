@@ -40,6 +40,8 @@ export CLICOLOR_FORCE=true
 
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
 
+export KNIFE_HOME="~/.chef"
+
 hitch() {
   command hitch "$@"
   if [[ -s "$HOME/.hitch_export_authors" ]] ; then source "$HOME/.hitch_export_authors" ; fi
