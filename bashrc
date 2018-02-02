@@ -52,3 +52,6 @@ alias unhitch='hitch -u'
 # hitch
 
 eval "$(~/workspace/dotmatrix/hr/bin/hr init -)"
+
+# Make travis CLI always use Pro
+export TRAVIS_ENDPOINT="https://api.travis-ci.com/"
