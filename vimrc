@@ -83,3 +83,9 @@ set wildignore+=*/_site/*
 
 " Ignore HaxeFlixel exports
 set wildignore+=*/export/*
+
+" Faster Ctrl+p
+let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
+if executable('ag')
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+endif
