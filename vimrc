@@ -28,6 +28,13 @@ set listchars="" " reset list chars
 set listchars+=tab:·\
 set listchars+=trail:. " display trailing spaces as dots
 
+" Turn off the visual bell from Dotmatrix
+set novisualbell
+
+" Turn off the wild menu from Dotmatrix
+set nowildmenu
+set wildmode=full
+
 set pastetoggle=<F2>
 
 """ file type specific settings
