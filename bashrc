@@ -55,3 +55,6 @@ eval "$(~/workspace/dotmatrix/hr/bin/hr init -)"
 
 # Make travis CLI always use Pro
 export TRAVIS_ENDPOINT="https://api.travis-ci.com/"
+
+# added by travis gem
+[ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
