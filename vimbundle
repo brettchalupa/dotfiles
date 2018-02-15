@@ -1,23 +1,35 @@
-" Personal plugins I want
+" ## Personal plugins I want (maybe should be added to dotmatrix)
 
 Plug 'ctrlpvim/ctrlp.vim'
 
+" ## Dotmatrix plugins I'm fine with, commented out so they load
+
+" Plug 'AndrewRadev/splitjoin.vim', { 'on': [] }
+" Plug 'adamlowe/vim-slurper', { 'on': [] }
+" Plug 'ervandew/supertab', { 'on': [] }
+" Plug 'godlygeek/tabular', { 'on': [] }
+" Plug 'jgdavey/tslime.vim', { 'on': [] }
+" Plug 'jgdavey/vim-blockle', { 'on': [] }
+" Plug 'kchmck/vim-coffee-script', { 'on': [] }
+" Plug 'jgdavey/vim-turbux', { 'on': [] }
+" Plug 'tpope/vim-haml', { 'on': [] }
+" Plug 'tpope/vim-markdown', { 'on': [] }
+" Plug 'tpope/vim-rails', { 'on': [] }
+" Plug 'tpope/vim-rake', { 'on': [] }
+" Plug 'tpope/vim-commentary', { 'on': [] }
+
+" ## Unsure about below
+
+" Plug 'hashrocket/vim-hashrocket', { 'on': [] }
+
 " Disable the dotmatrix plugins for speed
 
-Plug 'hashrocket/vim-hashrocket', { 'on': [] }
-Plug 'AndrewRadev/splitjoin.vim', { 'on': [] }
-Plug 'adamlowe/vim-slurper', { 'on': [] }
 Plug 'jbranchaud/vim-bdubs', { 'on': [] }
-Plug 'ervandew/supertab', { 'on': [] }
-Plug 'godlygeek/tabular', { 'on': [] }
 Plug 'gregsexton/gitv', { 'on': [] }
-Plug 'heartsentwined/vim-emblem', { 'on': [] }
-Plug 'jgdavey/tslime.vim', { 'on': [] }
-Plug 'jgdavey/vim-blockle', { 'on': [] }
+
+" Learn more about the disabled plugins below
 Plug 'jgdavey/vim-railscasts', { 'on': [] }
-Plug 'jgdavey/vim-turbux', { 'on': [] }
 Plug 'jgdavey/vim-weefactor', { 'on': [] }
-Plug 'kchmck/vim-coffee-script', { 'on': [] }
 Plug 'leshill/vim-json', { 'on': [] }
 Plug 'mileszs/ack.vim', { 'on': [] }
 Plug 'pangloss/vim-javascript', { 'on': [] }
@@ -26,18 +38,12 @@ Plug 'slim-template/vim-slim', { 'on': [] }
 Plug 'therubymug/vim-pyte', { 'on': [] }
 Plug 'tpope/vim-abolish', { 'on': [] }
 Plug 'tpope/vim-bundler', { 'on': [] }
-Plug 'tpope/vim-commentary', { 'on': [] }
-Plug 'tpope/vim-cucumber', { 'on': [] }
 Plug 'tpope/vim-endwise', { 'on': [] }
 Plug 'tpope/vim-eunuch', { 'on': [] }
 Plug 'tpope/vim-fugitive', { 'on': [] }
 Plug 'tpope/vim-git', { 'on': [] }
-Plug 'tpope/vim-haml', { 'on': [] }
-Plug 'tpope/vim-markdown', { 'on': [] }
 Plug 'tpope/vim-projectionist', { 'on': [] }
 Plug 'tpope/vim-ragtag', { 'on': [] }
-Plug 'tpope/vim-rails', { 'on': [] }
-Plug 'tpope/vim-rake', { 'on': [] }
 Plug 'tpope/vim-repeat', { 'on': [] }
 Plug 'tpope/vim-rsi', { 'on': [] }
 Plug 'tpope/vim-sensible', { 'on': [] }
@@ -54,3 +60,8 @@ Plug 'kana/vim-textobj-user', { 'on': [] }
 Plug 'nelstrom/vim-textobj-rubyblock', { 'on': [] }
 Plug 'mxw/vim-jsx', { 'on': [] }
 Plug 'sbdchd/neoformat', { 'on': [] }
+
+" Should be removed from dotmatrix entirely
+
+Plug 'heartsentwined/vim-emblem', { 'on': [] }
+Plug 'tpope/vim-cucumber', { 'on': [] }
