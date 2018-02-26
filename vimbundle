@@ -17,6 +17,9 @@ Plug 'ctrlpvim/ctrlp.vim'
 " Plug 'tpope/vim-rails', { 'on': [] }
 " Plug 'tpope/vim-rake', { 'on': [] }
 " Plug 'tpope/vim-commentary', { 'on': [] }
+" Plug 'tpope/vim-fugitive', { 'on': [] }
+" Plug 'tpope/vim-git', { 'on': [] }
+" Plug 'leshill/vim-json', { 'on': [] }
 
 " ## Unsure about below
 
@@ -30,7 +33,6 @@ Plug 'gregsexton/gitv', { 'on': [] }
 " Learn more about the disabled plugins below
 Plug 'jgdavey/vim-railscasts', { 'on': [] }
 Plug 'jgdavey/vim-weefactor', { 'on': [] }
-Plug 'leshill/vim-json', { 'on': [] }
 Plug 'mileszs/ack.vim', { 'on': [] }
 Plug 'pangloss/vim-javascript', { 'on': [] }
 Plug 'rondale-sc/vim-spacejam', { 'on': [] }
@@ -40,8 +42,6 @@ Plug 'tpope/vim-abolish', { 'on': [] }
 Plug 'tpope/vim-bundler', { 'on': [] }
 Plug 'tpope/vim-endwise', { 'on': [] }
 Plug 'tpope/vim-eunuch', { 'on': [] }
-Plug 'tpope/vim-fugitive', { 'on': [] }
-Plug 'tpope/vim-git', { 'on': [] }
 Plug 'tpope/vim-projectionist', { 'on': [] }
 Plug 'tpope/vim-ragtag', { 'on': [] }
 Plug 'tpope/vim-repeat', { 'on': [] }
