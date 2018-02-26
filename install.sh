@@ -26,5 +26,6 @@ for file in $files; do
   ln -s $dir/$file ~/.$file.local
 done
 
-# link none .local files
+# link non-.local files
 ln -s $dir/hushlogin ~/.hushlogin
+ln -s $dir/tmuxinator ~/.tmuxinator
