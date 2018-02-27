@@ -90,3 +90,17 @@ set wildignore+=*/_site/*
 
 " Ignore HaxeFlixel exports
 set wildignore+=*/export/*
+
+
+" Settings for Neovim
+
+" Use realtime visual find and replace
+if exists('&inccommand')
+  set inccommand=split
+endif
+
+" Ctrl-C in visual select copies to clipboard
+if has('nvim')
+  :tnoremap <Esc> <C-\><C-n>
+  :vnoremap <C-c> "*y
+endif

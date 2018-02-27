@@ -20,6 +20,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 " Plug 'tpope/vim-fugitive', { 'on': [] }
 " Plug 'tpope/vim-git', { 'on': [] }
 " Plug 'leshill/vim-json', { 'on': [] }
+" Plug 'tpope/vim-unimpaired', { 'on': [] }
 
 " ## Unsure about below
 
@@ -50,7 +51,6 @@ Plug 'tpope/vim-sensible', { 'on': [] }
 Plug 'tpope/vim-sleuth', { 'on': [] }
 Plug 'tpope/vim-speeddating', { 'on': [] }
 Plug 'tpope/vim-surround', { 'on': [] }
-Plug 'tpope/vim-unimpaired', { 'on': [] }
 Plug 'tpope/vim-vinegar', { 'on': [] }
 Plug 'tpope/vim-vividchalk', { 'on': [] }
 Plug 'vim-scripts/bufexplorer.zip', { 'on': [] }
