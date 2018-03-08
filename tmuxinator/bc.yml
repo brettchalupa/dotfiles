@@ -47,41 +47,41 @@ windows:
       layout: main-vertical
       root: ~/workspace/compose-dev
       panes:
-        - nvim .
+        - #nvim .
         - #empty
-        - dc up
+        - #dc up
   - admin:
       layout: main-vertical
       root: ~/workspace/compose-dev/admin
       panes:
-        - nvim .
+        - #nvim .
         - #empty
         - #dce admin bash
   - bigcartel:
       layout: main-vertical
       root: ~/workspace/compose-dev/bigcartel
       panes:
-        - nvim .
+        - #nvim .
         - #empty
         - #dce bigcartel bash
   - mysql-storefront:
       layout: main-vertical
       root: ~/workspace/compose-dev/mysql-storefront
       panes:
-        - nvim .
+        - #nvim .
         - #empty
         - #dce storefront bash
   - storefront:
       layout: main-vertical
       root: ~/workspace/compose-dev/storefront
       panes:
-        - nvim .
+        - #nvim .
         - #empty
         - #dce storefront bash
   - checkout:
       layout: main-vertical
       root: ~/workspace/compose-dev/checkout
       panes:
-        - nvim .
+        - #nvim .
         - #empty
         - #dce checkout bash
