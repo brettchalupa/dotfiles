@@ -29,3 +29,7 @@ done
 # link non-.local files
 ln -s $dir/hushlogin ~/.hushlogin
 ln -s $dir/tmuxinator ~/.tmuxinator
+
+# Neovim config
+mkdir -p ~/.config/nvim
+ln -s $dir/neovim.vim ~/.config/nvim/init.vim
