@@ -71,13 +71,6 @@ windows:
         - #nvim .
         - #empty
         - #dce storefront bash
-  - storefront:
-      layout: main-vertical
-      root: ~/workspace/compose-dev/storefront
-      panes:
-        - #nvim .
-        - #empty
-        - #dce storefront bash
   - checkout:
       layout: main-vertical
       root: ~/workspace/compose-dev/checkout
