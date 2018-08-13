@@ -1,7 +1,7 @@
 # ~/.tmuxinator/bc.yml
 
 name: bc
-root: ~/workspace/compose-dev
+root: ~/workspace/bigcartel/compose-dev
 
 # Optional tmux socket
 # socket_name: foo
@@ -17,7 +17,7 @@ root: ~/workspace/compose-dev
 # Run on project start, after the first time
 # on_project_restart: command
 # Run on project exit ( detaching from tmux session )
-# on_project_exit: cd ~/workspace/compose-dev && dc down
+# on_project_exit: cd ~/workspace/bigcartel/compose-dev && dc down
 # Run on project stop
 # on_project_stop: command
 
@@ -45,35 +45,35 @@ root: ~/workspace/compose-dev
 windows:
   - compose-dev:
       layout: main-vertical
-      root: ~/workspace/compose-dev
+      root: ~/workspace/bigcartel/compose-dev
       panes:
         - #nvim .
         - #empty
         - #dc up
   - admin:
       layout: main-vertical
-      root: ~/workspace/compose-dev/admin
+      root: ~/workspace/bigcartel/compose-dev/admin
       panes:
         - #nvim .
         - #empty
         - #dce admin bash
   - bigcartel:
       layout: main-vertical
-      root: ~/workspace/compose-dev/bigcartel
+      root: ~/workspace/bigcartel/compose-dev/bigcartel
       panes:
         - #nvim .
         - #empty
         - #dce bigcartel bash
   - mysql-storefront:
       layout: main-vertical
-      root: ~/workspace/compose-dev/mysql-storefront
+      root: ~/workspace/bigcartel/compose-dev/mysql-storefront
       panes:
         - #nvim .
         - #empty
         - #dce storefront bash
   - checkout:
       layout: main-vertical
-      root: ~/workspace/compose-dev/checkout
+      root: ~/workspace/bigcartel/compose-dev/checkout
       panes:
         - #nvim .
         - #empty

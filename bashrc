@@ -51,8 +51,6 @@ alias unhitch='hitch -u'
 # Uncomment to persist pair info between terminal instances
 # hitch
 
-eval "$(~/workspace/dotmatrix/hr/bin/hr init -)"
-
 # Make travis CLI always use Pro
 export TRAVIS_ENDPOINT="https://api.travis-ci.com/"
 
