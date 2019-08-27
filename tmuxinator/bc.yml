@@ -78,3 +78,17 @@ windows:
         - #nvim .
         - #empty
         - #dce checkout bash
+  - sites:
+      layout: main-vertical
+      root: ~/workspace/bigcartel/compose-dev/sites
+      panes:
+        - #nvim .
+        - #empty
+        - #dce checkout bash
+  - hub:
+      layout: main-vertical
+      root: ~/workspace/bigcartel/compose-dev/hub
+      panes:
+        - #nvim .
+        - #empty
+        - #dce checkout bash
