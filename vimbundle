@@ -2,3 +2,7 @@
 
 " Uncomment a line like below to disable a plugin from Dotmatrix
 " Plug 'heartsentwined/vim-emblem', { 'on': [] }
+
+" Haxe Plugin
+" Plug 'jdonaldson/vaxe'
+Plug 'sheerun/vim-polyglot'

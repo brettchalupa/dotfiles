@@ -35,6 +35,9 @@ export PATH=$PATH:$HOME/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/us
 
 export BIG_CARTEL_HOME="~/workspace"
 
+# Haxe configs
+export HAXE_STD_PATH="/usr/local/lib/haxe/std"
+
 # Force colors
 export CLICOLOR_FORCE=true
 

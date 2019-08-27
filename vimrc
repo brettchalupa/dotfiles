@@ -46,3 +46,6 @@ set wildignore+=*/node_modules/*,*/bower_components/*
 
 " Ignore generated Jekyll site
 set wildignore+=*/_site/*
+
+" Ignore Haxe builds
+set wildignore+=*/export/*
