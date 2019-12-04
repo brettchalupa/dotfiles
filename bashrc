@@ -60,3 +60,5 @@ export TRAVIS_ENDPOINT="https://api.travis-ci.com/"
 # added by travis gem
 [ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
 eval "$(/Users/brettchalupa/workspace/bigcartel/dotmatrix/hr/bin/hr init -)"
+
+export BASH_SILENCE_DEPRECATION_WARNING=1
