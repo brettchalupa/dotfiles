@@ -6,3 +6,6 @@
 " Haxe Plugin
 " Plug 'jdonaldson/vaxe'
 Plug 'sheerun/vim-polyglot'
+
+Plug 'leafgarland/typescript-vim', { 'on': [] }
+Plug 'HerringtonDarkholme/yats.vim', { 'on': [] }
