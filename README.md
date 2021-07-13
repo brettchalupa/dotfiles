@@ -7,4 +7,5 @@ in conjunction with https://github.com/hashrocket/dotmatrix
 
 1. Clone the repo in the home directory - `git clone https://github.com/brettchalupa/dotfiles.git ~/workspace/dotfiles`
 2. `cd` into the repo - `cd ~/workspace/dotfiles`
-3. Run the install script - `./install.sh`
+3. Check out the proper branch - `git checkout dotmatrix`
+4. Run the install script - `./install.sh`
