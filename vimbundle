@@ -7,5 +7,7 @@
 " Plug 'jdonaldson/vaxe'
 Plug 'sheerun/vim-polyglot'
 
+Plug 'kien/ctrlp.vim'
+
 Plug 'leafgarland/typescript-vim', { 'on': [] }
 Plug 'HerringtonDarkholme/yats.vim', { 'on': [] }
