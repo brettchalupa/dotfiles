@@ -1,12 +1,12 @@
 [user]
 	name = Brett Chalupa
-	email = brett@bigcartel.com
+	email = brettchalupa@gmail.com
 [credential]
 	helper = cache --timeout=6400
 [color]
 	ui = auto
 [core]
-	editor = vim
+	editor = nvim
 	excludesfile = ~/.gitignore_global.local
 [interactive]
 	singleKey = true

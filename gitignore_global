@@ -54,3 +54,5 @@ rubocop_result.txt
 
 # Pow configs
 .powrc
+
+*.code-workspace

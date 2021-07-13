@@ -49,4 +49,7 @@ export KNIFE_HOME=~/.chef
 # added by travis gem
 [ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
 
+export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
+
 export BASH_SILENCE_DEPRECATION_WARNING=1
+eval "$(/Users/brettchalupa/workspace/dotmatrix/hr/bin/hr init -)"

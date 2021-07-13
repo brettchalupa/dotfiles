@@ -1,8 +1,5 @@
 """"" vimrc
 "
-" These are my settings for vim in conjunction with our Big Cartel Dotmatrix
-" fork
-"
 """""
 
 
