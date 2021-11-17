@@ -4,9 +4,7 @@ export GOPATH=$HOME/workspace/go
 # dotfiles export
 export DOTFILES=$HOME/dotfiles
 
-# Set prompt to be: host:user dir $
-# eg. shire:brett dotfiles $
-export PS1="\h:\u \W\$(git_prompt_info '(%s)') $ "
+export PS1="\W\$(git_prompt_info '(%s)') $ "
 
 # Set the default editor to vim
 export EDITOR='nvim'
