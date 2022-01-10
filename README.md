@@ -1,7 +1,5 @@
 # dotfiles
 
-🚨 replaced by https://github.com/brettchalupa/neomatrix 🚨
-
 These are my local dotfiles for git, vim, bash, tmux, and other tools to be used
 in conjunction with https://github.com/hashrocket/dotmatrix
 
