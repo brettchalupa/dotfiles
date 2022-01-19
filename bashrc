@@ -6,6 +6,8 @@ export DOTFILES=$HOME/dotfiles
 
 export PS1="\W\$(git_prompt_info '(%s)') $ "
 
+export PATH=/opt/homebrew/bin:$PATH
+
 # Set the default editor to vim
 export EDITOR='nvim'
 
