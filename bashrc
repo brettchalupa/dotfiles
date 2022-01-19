@@ -35,7 +35,6 @@ alias be="bundle exec "
 export PATH="/usr/local/heroku/bin:$PATH"
 
 export PATH=$PATH:$HOME/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$GOPATH/bin:$HOME/.meteor
-
 # Haxe configs
 export HAXE_STD_PATH="/usr/local/lib/haxe/std"
 
@@ -50,6 +49,10 @@ export KNIFE_HOME=~/.chef
 [ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 
