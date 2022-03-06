@@ -52,3 +52,9 @@ set wildignore+=*/_site/*
 
 " Ignore Haxe builds
 set wildignore+=*/export/*
+
+" Ignore generated Soy site
+set wildignore+=*/build/*
+
+" Better CoC.nvim colors for light theme
+highlight CocFloating ctermbg=lightred
