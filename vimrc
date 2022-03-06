@@ -32,6 +32,12 @@ au FileType go nmap <leader>b <Plug>(go-build)
 au FileType go nmap <leader>t <Plug>(go-test)
 au FileType go nmap <leader>c <Plug>(go-coverage)
 
+au! BufNewFile,BufRead *.js setf javascript
+autocmd FileType javascript set shiftwidth=2 tabstop=2 expandtab
+autocmd FileType javascript.jsx set shiftwidth=2 tabstop=2 expandtab
+autocmd FileType typescript set shiftwidth=2 tabstop=2 expandtab
+autocmd FileType typescript.jsx set shiftwidth=2 tabstop=2 expandtab
+
 " Disable archive and temporary files
 set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz,*/tmp/*
 
