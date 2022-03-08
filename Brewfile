@@ -1,0 +1,7 @@
+brew "bash-completion"
+brew "gh"
+brew "gnupg"
+brew "nvm"
+brew "reattach-to-user-namespace"
+brew "the_silver_searcher"
+brew "tmux"

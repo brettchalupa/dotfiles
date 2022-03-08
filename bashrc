@@ -6,18 +6,26 @@ export DOTFILES=$HOME/dotfiles
 
 export PS1="\W\$(git_prompt_info '(%s)') $ "
 
-export PATH=/opt/homebrew/bin:$PATH
-
 # Set the default editor to vim
 export EDITOR='nvim'
 
-# bash autocompletion support
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-  . $(brew --prefix)/etc/bash_completion
+if type brew &>/dev/null
+then
+  HOMEBREW_PREFIX="$(brew --prefix)"
+  if [[ -r "${HOMEBREW_PREFIX}/etc/profile.d/bash_completion.sh" ]]
+  then
+    source "${HOMEBREW_PREFIX}/etc/profile.d/bash_completion.sh"
+  else
+    for COMPLETION in "${HOMEBREW_PREFIX}/etc/bash_completion.d/"*
+    do
+      [[ -r "${COMPLETION}" ]] && source "${COMPLETION}"
+    done
+  fi
 fi
 
 alias vi="nvim"
 alias vim="nvim"
+alias wake_up_vagrant="cd ~/workspace/bc/dev && vagrant up && exit"
 
 # Force tmux to assume 256 colors
 alias tmux="tmux -2"
@@ -31,6 +39,8 @@ alias nombom='npm cache clear && bower cache clean && rm -rf node_modules bower_
 alias gosrc="cd $GOPATH/src/github.com/brettchalupa"
 
 alias be="bundle exec "
+
+alias dugdev="bundle exec ruby ~/workspace/bc/dugway/bin/dugway"
 
 export PATH="/usr/local/heroku/bin:$PATH"
 
@@ -57,3 +67,15 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 
 export BASH_SILENCE_DEPRECATION_WARNING=1
+
+# automatically switch node ver
+enter_directory() {
+  if [[ $PWD == $PREV_PWD ]]; then
+    return
+  fi
+
+  PREV_PWD=$PWD
+  [[ -f ".nvmrc" ]] && nvm use
+}
+
+export PROMPT_COMMAND=enter_directory

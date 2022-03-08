@@ -56,3 +56,5 @@ rubocop_result.txt
 .powrc
 
 *.code-workspace
+*.tag
+*.tags
