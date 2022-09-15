@@ -27,6 +27,8 @@ alias vi="nvim"
 alias vim="nvim"
 alias wake_up_vagrant="cd ~/workspace/bc/dev && vagrant up && exit"
 
+alias ytmp3="youtube-dl -x --audio-format mp3 --audio-quality 0"
+
 # Force tmux to assume 256 colors
 alias tmux="tmux -2"
 
