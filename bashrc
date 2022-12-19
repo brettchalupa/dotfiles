@@ -39,6 +39,7 @@ alias nombom='npm cache clear && bower cache clean && rm -rf node_modules bower_
 alias gosrc="cd $GOPATH/src/github.com/brettchalupa"
 
 alias be="bundle exec "
+alias gc="concom"
 
 alias dugdev="bundle exec ruby ~/workspace/bc/dugway/bin/dugway"
 
