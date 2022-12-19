@@ -25,13 +25,13 @@ fi
 
 alias vi="nvim"
 alias vim="nvim"
-alias wake_up_vagrant="cd ~/workspace/bc/dev && vagrant up && exit"
+
+alias pbcopy="xclip -i -sel clipboard"
+alias pbpaste="xclip -o -sel clipboard"
+alias tmcp="tmux save-buffer - | pbcopy"
 
 # Force tmux to assume 256 colors
 alias tmux="tmux -2"
-
-# copy tmux buffer to clipboard - OS X only
-alias tmcp="tmux show-buffer | pbcopy"
 
 alias nombom='npm cache clear && bower cache clean && rm -rf node_modules bower_components && npm install && bower install'
 
@@ -45,13 +45,11 @@ alias dugdev="bundle exec ruby ~/workspace/bc/dugway/bin/dugway"
 export PATH="/usr/local/heroku/bin:$PATH"
 
 export PATH=$PATH:$HOME/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$GOPATH/bin:$HOME/.meteor
-# Haxe configs
-export HAXE_STD_PATH="/usr/local/lib/haxe/std"
 
 # Force colors
 export CLICOLOR_FORCE=true
 
-export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
+export PATH="~/workspace/bin:/usr/local/opt/mysql@5.6/bin:$PATH"
 
 export KNIFE_HOME=~/.chef
 
@@ -63,8 +61,6 @@ export KNIFE_HOME=~/.chef
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
@@ -79,3 +75,4 @@ enter_directory() {
 }
 
 export PROMPT_COMMAND=enter_directory
+unset HAXE_STD_PATH

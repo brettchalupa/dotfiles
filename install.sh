@@ -28,15 +28,7 @@ done
 
 # link non-.local files
 ln -s $dir/hushlogin ~/.hushlogin
-ln -s $dir/tmuxinator ~/.tmuxinator
 
 # Neovim config
 mkdir -p ~/.config/nvim
 ln -s $dir/neovim.vim ~/.config/nvim/init.vim
-
-# install homebrew!
-if ! command -v brew &> /dev/null
-then
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-fi
-brew bundle
