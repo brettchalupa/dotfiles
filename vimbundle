@@ -11,3 +11,19 @@ Plug 'kien/ctrlp.vim'
 
 Plug 'leafgarland/typescript-vim', { 'on': [] }
 Plug 'HerringtonDarkholme/yats.vim', { 'on': [] }
+Plug 'ervandew/supertab', { 'on': [] }
+
+Plug 'othree/html5.vim'
+Plug 'pangloss/vim-javascript'
+Plug 'evanleck/vim-svelte', {'branch': 'main'}
+Plug 'rust-lang/rust.vim'
+Plug 'cespare/vim-toml', {'branch': 'main'}
+Plug 'stephpy/vim-yaml'
+
+Plug 'edluffy/hologram.nvim'
+Plug 'rhaiscript/vim-rhai', { 'branch': 'main' }
+
+let g:coc_global_extensions = [
+  \ 'coc-tsserver',
+  \ 'coc-rust-analyzer',
+  \ ]

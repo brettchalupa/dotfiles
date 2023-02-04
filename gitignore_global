@@ -58,3 +58,4 @@ rubocop_result.txt
 *.code-workspace
 *.tag
 *.tags
+*.bak

@@ -38,6 +38,8 @@ autocmd FileType javascript.jsx set shiftwidth=2 tabstop=2 expandtab
 autocmd FileType typescript set shiftwidth=2 tabstop=2 expandtab
 autocmd FileType typescript.jsx set shiftwidth=2 tabstop=2 expandtab
 
+autocmd FileType markdown let b:coc_suggest_disable = 1
+
 " Disable archive and temporary files
 set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz,*/tmp/*
 
@@ -56,5 +58,15 @@ set wildignore+=*/export/*
 " Ignore generated Soy site
 set wildignore+=*/build/*
 
+""""""""""" CoC config
 " Better CoC.nvim colors for light theme
 highlight CocFloating ctermbg=lightred
+inoremap <silent><expr> <cr> coc#pum#visible() ? coc#_select_confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+inoremap <expr> <Tab> coc#pum#visible() ? coc#pum#next(1) : "\<Tab>"
+inoremap <expr> <S-Tab> coc#pum#visible() ? coc#pum#prev(1) : "\<S-Tab>"
+
+nmap <leader>r :Tmux cargo run<CR>
+nmap <leader>f :RustFmt<CR>
+autocmd FileType rust nmap <leader>t :Tmux cargo test<CR>
+
+let g:rustfmt_autosave = 1

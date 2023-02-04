@@ -23,11 +23,16 @@ then
   fi
 fi
 
+alias code="open -a Visual\ Studio\ Code.app"
 alias vi="nvim"
 alias vim="nvim"
+alias gc="concom"
 alias wake_up_vagrant="cd ~/workspace/bc/dev && vagrant up && exit"
-
-alias ytmp3="youtube-dl -x --audio-format mp3 --audio-quality 0"
+# alias gbl="ggit"
+#
+alias openfl="haxelib run openfl"
+alias lime="haxelib run lime"
+alias flixel="haxelib run flixel-tools"
 
 # Force tmux to assume 256 colors
 alias tmux="tmux -2"
@@ -44,11 +49,9 @@ alias be="bundle exec "
 
 alias dugdev="bundle exec ruby ~/workspace/bc/dugway/bin/dugway"
 
-export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="~/workspace/bin:/usr/local/heroku/bin:$PATH"
 
 export PATH=$PATH:$HOME/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$GOPATH/bin:$HOME/.meteor
-# Haxe configs
-export HAXE_STD_PATH="/usr/local/lib/haxe/std"
 
 # Force colors
 export CLICOLOR_FORCE=true
