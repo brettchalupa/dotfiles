@@ -1,6 +1,7 @@
 [user]
 	name = Brett Chalupa
 	email = brettchalupa@gmail.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAtE7a+t8Sii6C3vyAcO/HSq5Bi5fW8eTTxZmnZcWJgi
 [credential]
 	helper = cache --timeout=6400
 [color]
@@ -10,3 +11,9 @@
 	excludesfile = ~/.gitignore_global.local
 [interactive]
 	singleKey = true
+[gpg]
+  format = ssh
+[gpg "ssh"]
+  program = "/opt/1Password/op-ssh-sign"
+[commit]
+  gpgsign = true
